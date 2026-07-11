@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+    width: 1440px;
+    height: 60px;
+    align-items: center;
+}
+.item-1 {
+    color: white;
+    list-style-type: none;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    background-color: darkgray;
+}
+#Scholarship {
+    width: 1440px;
+    padding-bottom: 10px;
+}
+.container-2 {
+    display: grid;
+    grid-template-columns:450px 450px 450px;
+    gap: 30px;
+    padding: 20px;
+}
+#images {
+    width: 430px;
+}
+.item-2 {
+    border: 1px solid black;
+    padding: 10px;
+}
+#p2 {
+    color: blue;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footer {
+    background-color: green;
+    width: 1440px;
+    height: 60px;
+}
+.footer-text {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+p {
+    font-size: 18px;
+}
